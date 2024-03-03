@@ -1,8 +1,12 @@
 public class Gravitacija{
     public static void main(String[] args){
         System.out.println("OIS je zakon");
+        izpis(0.0);
+        izpis(10.0);
+        izpis(1000.0);
+        izpis(100000.0);
     }
-    public double izracunGravitacije(double visina){
+    public static double izracunGravitacije(double visina){
         double C=6.674e-11;
         double M=5.972e24;
         double r=6.371e6;
