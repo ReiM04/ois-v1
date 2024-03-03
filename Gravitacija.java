@@ -8,4 +8,7 @@ public class Gravitacija{
         double r=6.371e6;
         return (C*M)/Math.pow(r+visina,2.0);
     }
+    public static void izpis(double visina){
+        System.out.println("Gravitacijski pospešek %.2f km nadmorske višine je %.2f m/s^2 \n",visina,izracunGravitacije(visina*1000));
+    }
 }
